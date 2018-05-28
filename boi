@@ -1,0 +1,22 @@
+Def Lives(L):
+  Lives = 3
+  # trying to make counter decrease, forgot how to
+  
+
+print ('Welcome brave traveller, so you think you have what is takes to solve my riddles?')
+print ('Im sure you already know the rules my infamous game, but I will repeat them out of the kindness in my heart')
+print ('I ask riddles accompanied by 4 options')
+print ('In order to select an option, type the letter (in upper case) beside the option')
+print ('If you solve enough riddles, you will progress to the next level, with a total of 4 levels')
+print ('I'm giving you 3 chances, you lose 1 chance for every wrong riddle, and I think you know what happens if it reaches 0')
+print ('Your final score will be based on how many questions you got right and how many lives you have left.')
+print ('Enough banter, lets begin!)
+# introduction, explaining rules
+
+First question = str(input('How many cats can you fit in a empty pool? A: none, B: 1, C: 50'))
+if First question == B:
+  print ('Correct! Once you put a cat in a pool, it will not be empty anymore.')
+else:
+  print ('Incorrect!')
+  
+Second question = str(input('What starts with e, ends with e, and has a letter inside? A: envelope B: eagle C: office'))
