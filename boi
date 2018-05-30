@@ -30,7 +30,7 @@ if first level, second question == A:
 else:
   print ('Incorrect')
   
-first level, third question = str(input('What gets wet when you become dry? A: towel, B: fan, C: human')
+first level, third question = str(input('What gets wet when you become dry? A: towel, B: fan, C: human'))
 if first level, third question == A:
   print ('Correct! towel soaks water, making you dry.')
 else:
@@ -40,3 +40,61 @@ print ('Congratulations! Not many manage to finish the first level.')
 print ('I admit, you do posses some skill.')
 print ('Guess I'll use 50 percent of my true power.')
 print ('Don't get scared now, please entertain me!')
+
+second level, first question = str(input('I travel all around the world, but always stay in my corner, what am I? A: Canada B: Stamp C: mailman))
+if second level, first question == B:
+  print ('Correct! postal stamps go in the corner of envolepes.')
+else:
+  print ('Incorrect')
+  
+second level, second question = str(input('What disappears as soon as you say it's name? A: Fart B: Ivan C: Silence'))
+if second level, second question == C:
+  print ('Correct! As soon as you talk, it is no longer silent')
+else:
+  print ('Incorrect')
+
+second level, third question = str(input('How many letters are in alphabet? A: 8 B: 11 C:26'))
+if second level, third question == A:
+  print ('Correct! There are 8 letters in the word alphabet')
+else:
+  print ('Incorrect')
+
+print ('Not many manage to pass the second level...')
+print ('Please forgive my arrogance, I will give you the respect you deserve')
+print ('My best riddles are coming your way')
+
+third level, first question = str(input('What do you call a bear with an ear? A: Bear B: Disabled C: B'))
+if third level, first question == A:
+  print ('Correct! A human without an ear is still refered to as a human')
+else:
+  print ('Incorrect')
+  
+third level, second question = str(input('What do you break before you use it? A: Ivan B: egg C: batteries'))
+if third level, second question == B:
+  print ('Correct! You must discard the egg shell in order to use an egg.')
+else:
+  print ('Incorrect')
+  
+third level, third question = str(input('This belongs to you, but it is used by everyone, what is it? A: oxygen, B: Name, C: assitance'))
+if third level, third question == B:
+  print ('Correct! your name is yours, but people use it to call your attention')
+else:
+  print ('Incorrect')
+  
+print ('Congratulations, you are the only mortal to have completed my riddles.')
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
