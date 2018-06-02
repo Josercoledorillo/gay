@@ -18,20 +18,20 @@ print ('Your final score will be based on how many questions you got right and h
 print ('Enough banter, lets begin!)
 # introduction, explaining rules
 
-first level, first question = str(input('How many cats can you fit in a empty pool? A: none, B: 1, C: 50'))
-if first level, first question == B:
+first_level_first_question = str(input*('How many cats can be put in an empty pool? A: none B: 1 C: 50')
+if first_level_first_first question == B:
   print ('Correct! Once you put a cat in a pool, it will not be empty anymore.')
 else:
   print ('Incorrect!')
   
-first level, second question = str(input('What starts with e, ends with e, and has a letter inside? A: envelope B: eagle C: office'))
-if first level, second question == A:
+first_level_second_question = str(input('What starts with e, ends with e, and has a letter inside? A: envelope B: eagle C: office'))
+if first_level_second_question == A:
   print ('Correct! first and last letter of envelope is e and they often contain letters.')
 else:
   print ('Incorrect')
   
-first level, third question = str(input('What gets wet when you become dry? A: towel, B: fan, C: human'))
-if first level, third question == A:
+first_level_third_question = str(input('What gets wet when you become dry? A: towel, B: fan, C: human'))
+if first_level_third_question == A:
   print ('Correct! towel soaks water, making you dry.')
 else:
   print ('Incorrect')
@@ -41,7 +41,7 @@ print ('I admit, you do posses some skill.')
 print ('Guess I'll use 50 percent of my true power.')
 print ('Don't get scared now, please entertain me!')
 
-second level, first question = str(input('I travel all around the world, but always stay in my corner, what am I? A: Canada B: Stamp C: mailman))
+second level, first question = str(input('I travel all around the world, but always stay in my corner, what am I? A: Canada B: Stamp C: mailman'))
 if second level, first question == B:
   print ('Correct! postal stamps go in the corner of envolepes.')
 else:
