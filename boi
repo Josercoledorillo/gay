@@ -8,27 +8,27 @@ Levels = 0
 Score = Answered + Lives + Levels
 
 print ('Welcome brave traveller, so you think you have what is takes to solve my riddles?')
-time.delay(3)
+time.sleep(3)
 print ('Im sure you already know the rules my infamous game...')
-time.delay(3)
+time.sleep(3)
 print ('But I will repeat them out of the kindness in my heart')
-time.delay(3)
+time.sleep(3)
 print ('I ask riddles accompanied by 4 options')
-time.delay(3)
+time.sleep(3)
 print ('In order to select an option, type the letter (in upper case) beside the option')
-time.delay(4)
+time.sleep(4)
 print ('If you solve enough riddles, you will progress to the next level, with a total of 4 levels')
-time.delay(4)
-print ('I'm giving you 3 chances, you lose 1 chance for every wrong riddle, and I think you know what happens if it reaches 0')
-time.dealy(5)
+time.sleep(4)
+print ('You get three lives, you lose one live everytime you get one wrong, you lose when you reach zero lives.')
+time.sleep(5)
 print ('Your final score will be based on how many questions you got right and how many lives you have left.')
-time.delay(4)
-print ('Enough banter, lets begin!)
-time.delay(3)
+time.sleep(4)
+print ('Enough banter, lets begin!')
+time.sleep(3)
 # introduction, explaining rules
 
 first_level_first_question = str(input('How many cats can be put in an empty pool? A: none B: 1 C: 50'))
-if first_level_first_first question == B:
+if first_level_first_first_question == B:
   print ('Correct! Once you put a cat in a pool, it will not be empty anymore.')
 else:
   print ('Incorrect! Once you put a cat in a pool, it will not be empty anymore.')
@@ -48,7 +48,7 @@ else:
 print ('Congratulations! Not many manage to finish the first level.')
 print ('I admit, you do posses some skill.')
 print ('Guess I will have to use 50 percent of my true power.')
-print ('Don't get scared now, please entertain me!')
+print ('Please continue to entertain me')
 
 second_level_first_question = str(input('I travel all around the world, but always stay in my corner, what am I? A: Canada B: Stamp C: mailman'))
 if second_level_first_question == B:
@@ -56,7 +56,7 @@ if second_level_first_question == B:
 else:
   print ('Incorrect! postal stamps go in the corner of envolepes.')
   
-second_level_second_question = str(input('What disappears as soon as you say it's name? A: Ghost B: Ivan C: Silence'))
+second_level_second_question = str(input('What disappears as soon as you say their name? A: Ghost B: Ivan C: Silence'))
 if second_level_second_question == C:
   print ('Correct! As soon as you talk, it is no longer silent')
 else:
@@ -91,7 +91,7 @@ else:
   print ('Incorrect! your name is yours, but people use it to call your attention')
   
 print ('Congratulations, you are the only mortal to have completed my riddles.')
-print (' Your final score is 'score')
+print (' Your final score is score')
 
   
   
