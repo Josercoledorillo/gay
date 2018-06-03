@@ -7,24 +7,28 @@ Answered = 0
 Levels = 0
 Score = Answered + Lives + Levels
 
+A = str(input())
+B = str(input())
+C = str(input())
+
 print ('Welcome brave traveller, so you think you have what is takes to solve my riddles?')
-time.sleep(3)
+time.sleep(4)
 print ('Im sure you already know the rules of my infamous game...')
-time.sleep(3)
+time.sleep(4)
 print ('But I will repeat them out of the kindness in my heart')
-time.sleep(3)
+time.sleep(4)
 print ('I ask riddles accompanied by 4 options')
-time.sleep(3)
+time.sleep(4)
 print ('In order to select an option, type the letter (in upper case) beside the option')
-time.sleep(4)
-print ('If you solve enough riddles, you will progress to the next level, with a total of 4 levels')
-time.sleep(4)
-print ('You get three lives, you lose one live everytime you get one wrong, you lose when you reach zero lives.')
 time.sleep(5)
+print ('If you solve enough riddles, you will progress to the next level, with a total of 4 levels')
+time.sleep(5)
+print ('You get three lives, you lose one live everytime you get one wrong, you lose when you reach zero lives.')
+time.sleep(6)
 print ('Your final score will be based on how many questions you got right and how many lives you have left.')
-time.sleep(4)
+time.sleep(5)
 print ('Enough banter, lets begin!')
-time.sleep(3)
+time.sleep(4)
 # introduction, explaining rules
 
 first_level_first_question = str(input('How many cats can be put in an empty pool? A: none B: 1 C: 50'))
