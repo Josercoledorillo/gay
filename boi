@@ -9,7 +9,7 @@ Score = Answered + Lives + Levels
 
 print ('Welcome brave traveller, so you think you have what is takes to solve my riddles?')
 time.sleep(3)
-print ('Im sure you already know the rules my infamous game...')
+print ('Im sure you already know the rules of my infamous game...')
 time.sleep(3)
 print ('But I will repeat them out of the kindness in my heart')
 time.sleep(3)
