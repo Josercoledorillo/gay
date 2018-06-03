@@ -18,70 +18,71 @@ print ('Your final score will be based on how many questions you got right and h
 print ('Enough banter, lets begin!)
 # introduction, explaining rules
 
-first_level_first_question = str(input*('How many cats can be put in an empty pool? A: none B: 1 C: 50')
+first_level_first_question = str(input('How many cats can be put in an empty pool? A: none B: 1 C: 50'))
 if first_level_first_first question == B:
   print ('Correct! Once you put a cat in a pool, it will not be empty anymore.')
 else:
-  print ('Incorrect!')
+  print ('Incorrect! Once you put a cat in a pool, it will not be empty anymore.')
   
 first_level_second_question = str(input('What starts with e, ends with e, and has a letter inside? A: envelope B: eagle C: office'))
 if first_level_second_question == A:
   print ('Correct! first and last letter of envelope is e and they often contain letters.')
 else:
-  print ('Incorrect')
+  print ('Incorrect! first and last letter of envelope is e and they often contain letters.')
   
 first_level_third_question = str(input('What gets wet when you become dry? A: towel, B: fan, C: human'))
 if first_level_third_question == A:
   print ('Correct! towel soaks water, making you dry.')
 else:
-  print ('Incorrect')
+  print ('Incorrect! towel soaks water, making you dry.')
   
 print ('Congratulations! Not many manage to finish the first level.')
 print ('I admit, you do posses some skill.')
-print ('Guess I'll use 50 percent of my true power.')
+print ('Guess I will have to use 50 percent of my true power.')
 print ('Don't get scared now, please entertain me!')
 
-second level, first question = str(input('I travel all around the world, but always stay in my corner, what am I? A: Canada B: Stamp C: mailman'))
-if second level, first question == B:
+second_level_first_question = str(input('I travel all around the world, but always stay in my corner, what am I? A: Canada B: Stamp C: mailman'))
+if second_level_first_question == B:
   print ('Correct! postal stamps go in the corner of envolepes.')
 else:
-  print ('Incorrect')
+  print ('Incorrect! postal stamps go in the corner of envolepes.')
   
-second level, second question = str(input('What disappears as soon as you say it's name? A: Fart B: Ivan C: Silence'))
-if second level, second question == C:
+second_level_second_question = str(input('What disappears as soon as you say it's name? A: Ghost B: Ivan C: Silence'))
+if second_level_second_question == C:
   print ('Correct! As soon as you talk, it is no longer silent')
 else:
-  print ('Incorrect')
+  print ('Incorrect! As soon as you talk, it is no longer silent')
 
-second level, third question = str(input('How many letters are in alphabet? A: 8 B: 11 C:26'))
-if second level, third question == A:
+second_level_third_uestion = str(input('How many letters are in alphabet? A: 8 B: 11 C:26'))
+if second_level_third_question == A:
   print ('Correct! There are 8 letters in the word alphabet')
 else:
-  print ('Incorrect')
+  print ('Incorrect! There are 8 letters in the word alphabet')
 
 print ('Not many manage to pass the second level...')
 print ('Please forgive my arrogance, I will give you the respect you deserve')
 print ('My best riddles are coming your way')
 
-third level, first question = str(input('What do you call a bear with an ear? A: Bear B: Disabled C: B'))
-if third level, first question == A:
+third_level_first_question = str(input('What do you call a bear with an ear? A: Bear B: Disabled C: B'))
+if third_level_first_question == A:
   print ('Correct! A human without an ear is still refered to as a human')
 else:
-  print ('Incorrect')
+  print ('Incorrect! A human without an ear is still refered to as a human')
   
-third level, second question = str(input('What do you break before you use it? A: Ivan B: egg C: batteries'))
-if third level, second question == B:
+third_level_second_question = str(input('What do you break before you use it? A: Ivan B: egg C: batteries'))
+if third_level_second_question == B:
   print ('Correct! You must discard the egg shell in order to use an egg.')
 else:
-  print ('Incorrect')
+  print ('Incorrect! You must discard the egg shell in order to use an egg.')
   
-third level, third question = str(input('This belongs to you, but it is used by everyone, what is it? A: oxygen, B: Name, C: assitance'))
-if third level, third question == B:
+third_level_third_question = str(input('This belongs to you, but it is used by everyone, what is it? A: oxygen, B: Name, C: assitance'))
+if third_level_third_question == B:
   print ('Correct! your name is yours, but people use it to call your attention')
 else:
-  print ('Incorrect')
+  print ('Incorrect! your name is yours, but people use it to call your attention')
   
 print ('Congratulations, you are the only mortal to have completed my riddles.')
+print (' Your final score is 'score')
 
   
   
