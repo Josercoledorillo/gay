@@ -62,7 +62,7 @@ if second_level_second_question == 'C':
 else:
   print ('Incorrect! As soon as you talk, it is no longer silent')
 
-second_level_third_uestion = str(input('How many letters are in alphabet? A: 8 B: 11 C:26'))
+second_level_third_question = str(input('How many letters are in alphabet? A: 8 B: 11 C:26'))
 if second_level_third_question == 'A':
   print ('Correct! There are 8 letters in the word alphabet')
 else:
@@ -72,7 +72,7 @@ print ('Not many manage to pass the second level...')
 print ('Please forgive my arrogance, I will give you the respect you deserve')
 print ('My best riddles are coming your way')
 
-third_level_first_question = str(input('What do you call a bear with an ear? A: Bear B: Disabled C: B'))
+third_level_first_question = str(input('What do you call a bear without an ear? A: Bear B: Disabled C: B'))
 if third_level_first_question == 'A':
   print ('Correct! A human without an ear is still refered to as a human')
 else:
