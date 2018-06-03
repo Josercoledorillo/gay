@@ -84,7 +84,7 @@ if third_level_second_question == 'B':
 else:
   print ('Incorrect! You must discard the egg shell in order to use an egg.')
   
-third_level_third_question = str(input('This belongs to you, but it is used by everyone, what is it? A: oxygen, B: Name, C: assitance'))
+third_level_third_question = str(input('This belongs to you, but it is used by everyone, what is it? A: Oxygen B: Name C: Assistance'))
 if third_level_third_question == 'B':
   print ('Correct! your name is yours, but people use it to call your attention')
 else:
