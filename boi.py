@@ -45,18 +45,27 @@ if first_level_second_question == 'A':
   Answered = Answered + 1
 else:
   print ('Incorrect! first and last letter of envelope is e and they often contain letters.')
-  
+  Lives = Lives - 1
+  if Lives == 0:
+    print ('Game Over')
+    pygame.quit()
+
 first_level_third_question = str(input('What gets wet when you become dry? A: towel, B: fan, C: human'))
 if first_level_third_question == 'A':
   print ('Correct! towel soaks water, making you dry.')
   Answered = Answered + 1
 else:
   print ('Incorrect! towel soaks water, making you dry.')
-  
+  Lives = Lives - 1
+  if Lives == 0:
+    print ('Game Over')
+    pygame.quit()
+
 print ('Congratulations! Not many manage to finish the first level.')
 print ('I admit, you do posses some skill.')
 print ('Guess I will have to use 50 percent of my true power.')
 print ('Please continue to entertain me')
+Levels = Levels + 1
 
 second_level_first_question = str(input('I travel all around the world, but always stay in my corner, what am I? A: Canada B: Stamp C: mailman'))
 if second_level_first_question == 'B':
@@ -64,6 +73,10 @@ if second_level_first_question == 'B':
   Answered = Answered + 1
 else:
   print ('Incorrect! postal stamps go in the corner of envolepes.')
+  Lives = Lives - 1
+  if Lives == 0:
+    print ('Game Over')
+    pygame.quit()
   
 second_level_second_question = str(input('What disappears as soon as you say their name? A: Ghost B: Ivan C: Silence'))
 if second_level_second_question == 'C':
@@ -71,6 +84,10 @@ if second_level_second_question == 'C':
   Answered = Answered + 1
 else:
   print ('Incorrect! As soon as you talk, it is no longer silent')
+  Lives = Lives - 1
+  if Lives == 0:
+    print ('Game Over')
+    pygame.quit()
 
 second_level_third_question = str(input('How many letters are in alphabet? A: 8 B: 11 C:26'))
 if second_level_third_question == 'A':
@@ -78,10 +95,15 @@ if second_level_third_question == 'A':
   Answered = Answered + 1
 else:
   print ('Incorrect! There are 8 letters in the word alphabet')
+  Lives = Lives - 1
+  if Lives == 0:
+    print ('Game Over')
+    pygame.quit()
 
 print ('Not many manage to pass the second level...')
 print ('Please forgive my arrogance, I will give you the respect you deserve')
 print ('My best riddles are coming your way')
+Levels = Levels + 1
 
 third_level_first_question = str(input('What do you call a bear without an ear? A: Bear B: Disabled C: B'))
 if third_level_first_question == 'A':
@@ -89,6 +111,10 @@ if third_level_first_question == 'A':
   Answered = Answered + 1
 else:
   print ('Incorrect! A human without an ear is still refered to as a human')
+  Lives = Lives - 1
+  if Lives == 0:
+    print ('Game Over')
+    pygame.quit()
   
 third_level_second_question = str(input('What do you break before you use it? A: Ivan B: egg C: batteries'))
 if third_level_second_question == 'B':
@@ -96,6 +122,10 @@ if third_level_second_question == 'B':
   Answered = Answered + 1
 else:
   print ('Incorrect! You must discard the egg shell in order to use an egg.')
+  Lives = Lives - 1
+  if Lives == 0:
+    print ('Game Over')
+    pygame.quit()
   
 third_level_third_question = str(input('This belongs to you, but it is used by everyone, what is it? A: Oxygen B: Name C: Assistance'))
 if third_level_third_question == 'B':
@@ -103,22 +133,10 @@ if third_level_third_question == 'B':
   Answered = Answered + 1
 else:
   print ('Incorrect! your name is yours, but people use it to call your attention')
+  Lives = Lives - 1
+  if Lives == 0:
+    print ('Game Over')
+    pygame.quit()
   
 print ('Congratulations, you are the only mortal to have completed my riddles.')
 print (Score)
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
