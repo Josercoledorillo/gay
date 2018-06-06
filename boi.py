@@ -62,9 +62,13 @@ else:
     pygame.quit()
 
 print ('Congratulations! Not many manage to finish the first level.')
+time.sleep(4)
 print ('I admit, you do posses some skill.')
+time.sleep(3)
 print ('Guess I will have to use 50 percent of my true power.')
+time.sleep(3)
 print ('Please continue to entertain me')
+time.sleeo(3)
 Levels = Levels + 1
 
 second_level_first_question = str(input('I travel all around the world, but always stay in my corner, what am I? A: Canada B: Stamp C: mailman'))
@@ -101,8 +105,11 @@ else:
     pygame.quit()
 
 print ('Not many manage to pass the second level...')
+time.sleep(3)
 print ('Please forgive my arrogance, I will give you the respect you deserve')
+time.sleep(4)
 print ('My best riddles are coming your way')
+time.sleep(3)
 Levels = Levels + 1
 
 third_level_first_question = str(input('What do you call a bear without an ear? A: Bear B: Disabled C: B'))
@@ -139,4 +146,5 @@ else:
     pygame.quit()
   
 print ('Congratulations, you are the only mortal to have completed my riddles.')
+time.sleep(3)
 print (Score)
