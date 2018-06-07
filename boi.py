@@ -30,7 +30,7 @@ time.sleep(4)
 
 first_level_first_question = str(input('How many cats can be put in an empty pool? A: none B: 1 C: 50'))
 if first_level_first_question == 'B':
-  print ('Correct! Once you put a cat in a pool, it will not be empty anymore.')ns
+  print ('Correct! Once you put a cat in a pool, it will not be empty anymore.')
   Answered = Answered + 1
 else:
   print ('Incorrect! Once you put a cat in a pool, it will not be empty anymore.')
